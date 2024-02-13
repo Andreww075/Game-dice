@@ -1,0 +1,67 @@
+html {
+  height: 100%;
+  background: linear-gradient(#951818, #39426B, #39426B, #39426B, #39426B, #39426B, #39426B, #39426B, #39426B, #39426B, #951818);
+}
+
+body {
+  margin: 0;
+}
+
+.content, .button_container {
+  width: 70%;
+  margin: auto;
+  text-align: center;
+}
+
+h1 {
+  font-size: 5rem;
+  font-family: 'Delius Unicase', cursive;
+  color: #AF3030;
+  text-shadow: 5px 0 #123554;
+  margin: 40px;
+  text-align: center;
+}
+
+.names {
+  display: inline-block;
+  text-align: center;
+  margin: 40px;
+  margin-top: 10px;
+}
+
+p {
+  font-family: 'Bonbon', cursive;
+  color: #4771B0;
+  font-size: 2rem;
+}
+
+img {
+  width: 100%;
+  transition: 2s;
+}
+
+.button_container {
+}
+
+.button_game, .button_names {
+  margin: 0.5em auto;
+  align-content: center;
+  width: 42%;
+  display: block;
+  background: linear-gradient(90deg, #951818, #39426B, #39426B, #39426B, #39426B, #39426B, #39426B, #39426B, #39426B, #39426B, #951818);
+  font-family: 'Bonbon', cursive;
+  border-radius: 7px;
+  color: #4771B0;
+  font-size: 30px;
+  padding: 16px 25px 16px 25px;
+  text-decoration: none;
+}
+
+.button_game:hover, .button_names:hover {
+  background: linear-gradient(90deg, #951818, #39426B, #39426B, #39426B, #951818);
+  
+}
+
+.button_game:active, .button_names:active {
+  background: linear-gradient(90deg, #39426B, #951818, #951818, #951818, #951818, #951818, #951818, #951818, #951818, #39426B);
+}
